@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Задание №5</title>
+</head>
+
+<body>
+
+<form>
+    <label for="amount">Кол-во: </label>
+    <input
+		id="amount"
+        min="1"
+		value="1"
+		placeholder="Введите количество товара"
+        type="number"
+        required
+	/>
+
+    </br>
+
+    <label for="list">Вид товара: </label>
+    <select id="list">
+      <option value="-1">Товар</option>
+      <option value="18">Банан</option>
+      <option value="1000000">Виталя</option>
+      <option value="90">Ручка</option>
+      <option value="250">Кисть с конским волосом</option>
+      <option value="80">Тетрадь (64 листа)</option>
+    </select>
+
+    </br>
+
+    <button id="button" type="submit">рассчитать</button>
+
+    </br>
+
+    <label for="result">Цена в рублях: </label>
+    <label id="result"></label>
+</form>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
